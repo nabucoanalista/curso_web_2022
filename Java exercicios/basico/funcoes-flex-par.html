@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <script>
+        
+      function soma(a, b) { //como só temos2 parametrs declarados, ele ignora o q excede... porem podemos dacreascentar parametros a qualquer hora
+        //ver aula 177
+        return a + b
+      }
+
+      console.log(soma(7, 7))
+      console.log(soma(7, 7, 9, 15)) //se nao está declarado, o java desconsidera os parametos a mais
+      console.log(soma(7)) // o inverso acontece quando passamos menos valores que parametros... nese caso o parametro b dara underfined
+      console.log(soma()) //nesse caso underfined + underfined = a not nunber
+
+    </script>    
+</head>
+<body>
+</body>
+</htl>

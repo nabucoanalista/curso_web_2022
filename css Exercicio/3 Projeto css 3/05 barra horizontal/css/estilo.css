@@ -1,0 +1,45 @@
+/*==================
+NAVEGAÇAO HORIZONTAL
+==================*/
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	width: 720px;
+	background: #159cb0 url(../img/fundo-horizontal.png) repeat-x;
+	float: left; /*como temos outro float na li, precisamos de um aqui para a imagem ficar em baixo da li*/
+}
+
+ul li{
+	/*display: inline; essa forma funciona, mas usaremos outra*/
+	float: left;
+}
+
+ul a {
+	display: block;
+	padding: 0 2em;
+	line-height: 2em;
+	text-decoration: none;
+	color: #fff;
+	background: url(../img/divisor.png) repeat-y;
+}
+
+ul .primeiro a {
+	background: none;
+}
+
+ul a:hover {
+	color: #085662;
+	background: #44cade;	
+} 
+
+#home #barra-horizontal .home a, 
+#sobre #barra-horizontal .sobre a, 
+#serv #barra-horizontal .serv a, 
+#noticias #barra-horizontal .noticias a, 
+#contato #barra-horizontal .contato a{
+	
+	color: #085662;
+	background: #44cade;
+}

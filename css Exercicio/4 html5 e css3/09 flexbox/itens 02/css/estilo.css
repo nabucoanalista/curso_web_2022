@@ -1,0 +1,19 @@
+#conteudo {
+    background: #dcdcdc;
+    height: 400px;
+    display: flex;
+
+     
+}
+
+.item {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background: white;
+    border: 1px solid gray;
+    flex-grow: 0; /*define de aumento da proporçao de espaço ocupado por um item*/
+    flex-shrink: 1; /*define a reduçao da proporçao de espaço ocupado por um item*/    
+    flex-basis: auto; /*indica o tamanho inicial do flex item antes da distribuiçao do espaço restante*/
+}
+

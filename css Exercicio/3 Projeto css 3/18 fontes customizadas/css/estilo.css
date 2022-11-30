@@ -1,0 +1,43 @@
+/*============
+CORPO DA CHAVE
+============*/
+
+@font-face { /*serve para usar uma fonte fora das fontes do google*/
+    font-family: "Bring Heart";/*agora qualquer usuario verá a fonte ideendente de ter o n no pc*/
+    src: url("../fonts/BringHeart.woff");
+}
+
+@font-face {
+    font-family: "Ancient-Medium.woff";
+    src: url("../fonts/Ancient-Medium.woff");
+}
+
+@font-face {
+    font-family: Madelina; /*se o nome só tiver  palavra n carece de aspas*/
+    src: url("../fonts/MadelinaScript.woff");
+}
+
+@font-face {
+    font-family: Road;
+    src: url("../fonts/RoadRage.woff");
+}
+
+h1 {
+    font-size: 6em;
+    font-family: "Bring Heart";
+}
+
+h2 {
+    font-size: 6em;
+    font-family: "Ancient-Medium.woff";
+}
+
+h3 {
+    font-size: 6em;
+    font-family: Madelina;
+}
+
+h4 {
+    font-size: 6em;
+    font-family: Road;
+}

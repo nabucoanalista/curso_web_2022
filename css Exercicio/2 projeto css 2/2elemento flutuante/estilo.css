@@ -1,0 +1,22 @@
+
+
+.conteudo{
+	background: blue;
+	border: 1px solid gray;
+	width: 200px;
+	height: 200px;
+	margin: 10px;
+	float: left;   /* float serve para deixar elementos flutuando na tela*/
+}
+
+/*.conteudo1{
+	background: red;
+	border: 1px solid gray;
+	width: 200px;
+	height: 200px;
+	float: right; serve para fazer um objeto flutuante
+}*/
+
+.clear{
+	clear: both; /* comando que organiza e separa algo do que esta flutuando*/
+}

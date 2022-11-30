@@ -1,0 +1,14 @@
+#caixa {
+	width: 300px;
+	height: 300px;
+	padding: 8px;
+	margin: 20px;
+	background: #009670;
+	box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2); /*Aplica sombra na caixa caso eu coloque um quarto valor, ele servira para espalhar a sombra*/
+}
+
+#caixa h1 {
+	color: white;
+	/*text-shadow: 2.5px 2.5px #ccc ; Aplica sombra no texto*/
+	text-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2); /*o terceiro valor define o efeito borrado*/
+}

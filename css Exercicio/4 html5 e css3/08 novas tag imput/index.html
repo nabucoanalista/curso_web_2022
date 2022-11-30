@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
+	<title>Novas Tags imput</title>
+	<!-- Estilo customizado -->
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+</head>
+<body>
+
+	<form>
+		<label for="nome">Nome</label>
+		<input type="text" name="nome" id="nome" required autofocus>
+		<br><br> <!-- o comando auto focus faz com que o campo seja prioridade no formulário -->
+
+		<label for="email">Email</label>
+		<input type="email" id="email" required> <!--temos 2 novas opçoes o id email força o usuario a escrever o padrao de email e a required deixa a obrigatoriedade de preencher o camppo-->
+		<br><br>
+
+		<label for="numero">Número</label>
+		<input type="number" id="numero" min="5" max="10" step="5" > <!--nunber cra um campo com setas para numeros e step salta os numeros-->
+		<br><br>
+		
+		<label for="url">Url</label>
+		<input type="url" id="url" placeholder="ex: http://www..." > <!--o url n aceita se o usuario começar o site com www, por isso o place roder mostrando a forma correta-->
+		<br><br>
+
+		<label for="pesquisa">Pesquisa</label>
+		<input type="search" id="pesquisa" > <!--o url n aceita se o usuario começar o site com www, por isso o place roder mostrando a forma correta-->
+		<br><br>
+
+		<label for="ranger">Ranger</label>
+		<input type="range" id="ranger" min="1" max="3" value="2" > <!-- o min e o max define estagios para o arrasto e o value diz o valor inicial-->
+		<br><br>
+
+		<label for="data">Data</label>
+		<input type="date" id="data" > 
+		<br><br>
+
+		<label for="cor">Cor</label>
+		<input type="color" id="cor" > <!--o url n aceita se o usuario começar o site com www, por isso o place roder mostrando a forma correta-->
+		<br><br>
+
+		<input type="submit" name="" value="Enviar">
+
+	</form>
+
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <script>
+        
+        //true && true && false = false nesse caso só teremos verdadeiro se todos forem verdadeiros
+        /*if(2 == 2 && 3 >= 1 && "a" == "b"){
+            document.write("Verdadeiro")
+        } 
+        else{
+            document.write("Falso")
+        }*/
+
+        //true || true || false = false nesse caso se uma afirmaçao for tru da tudo como vdd
+        /*if(2 == 2 || 3 >= 1 || "a" == "b"){
+            document.write("Verdadeiro")
+        } 
+        else{
+            document.write("Falso")
+        }*/
+
+        //true = false nesse caso a negaçao inverte o resilyado
+        /*if(!(4 == 2)){
+            document.write("Verdadeiro")
+        } 
+        else{
+            document.write("Falso")
+        }*/
+
+        var nota = prompt('Digite a nota do aluno:')
+        var faltas = prompt('Digite o numero de faltas do aluno:')
+        
+        var media = 7
+        var faltas_maximas = 15
+
+        /*if(nota >= media && faltas <= faltas_maximas){
+            document.write('Aprovado')
+        } else {
+            document.write('Reprovado')
+        }*/
+
+        var restado = (nota >= media && faltas <= faltas_maximas) ? "Aprovado" : "Reprovado"
+        document.write(restado)
+    </script>    
+</head>
+<body>
+</body>
+</htl>

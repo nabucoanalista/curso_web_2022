@@ -1,0 +1,68 @@
+/*=====
+Layouts
+=====*/
+
+body{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #f2f2f2;
+}
+
+#container {
+	width: 85%;/*720px é a porcentagem, 85 de 720*/
+	margin: 0 auto;
+	background: #fff;
+	min-width: 720px;/*define o minimo que pode diminuir a tela*/
+  /*max-width: 960px; define o maximo que pode esticar a tela*/
+}
+
+#marca {
+	height: 100px;
+	background: #9E9E9E;
+	text-align: center;
+	line-height: 100px;
+}
+
+#conteudo {
+	width: 75%;/*520px para saber a porcentagem a aplicar devemos fazer uma regra de 3.*/
+	float: right;/*soma o 520 com os 180 da navegaçao vai vdar 700 em conteiner definimos o limite de 720*/
+}				 /*depois vc calcula 520 x 100 = 52000/ 700 = 74.28 */	
+
+#navegacao {
+	width: 23%;/*180px aqui farems o mesmo calculo. 180 x 100 = 18000 / 700 = 25.71*/
+	float: left; /* se eu somar o 74.28 + 25.71 vou ter 99.99 significa que estou usando 99.9 % do que definir no container*/
+	padding-bottom: 20px;
+	background: #d1d1d1;
+}
+
+#conteudo-principal {/*agora vamos ajustar essas partes para nao desmontar se diminuir a tela*/
+	width: 64%; /*320px -> */
+	float: left;/*320 * 100 = 32000 / 500 = 64%*/
+}
+
+#conteudo-secundario {/*lembrando que o tamanho total do conteudo tá de 520px e a soma do coteudo princ com o sec da 500 px*/
+	width: 34%;/*180px -> 180 * 100 = 18000 / 500 = 36% */
+	float: right;/*sempre colocar menos que o valor total pq os 100% quebr O Layout*/
+	background: #d1d1d1;
+}
+
+#conteudo-secundario h1,
+#conteudo-secundario h2,
+#conteudo-secundario h3,
+#conteudo-secundario p {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#navegacao ul { /* esse tira os marcadores do link*/
+	list-style: none;
+}
+
+#navegacao li a { /* esse tira o sublinhado do link*/
+	text-decoration: none;
+}
+
+#rodape {
+	clear: both;/* comando serve para limpar o both*/
+	background: #c4c4c4;
+	padding: 5px;
+}

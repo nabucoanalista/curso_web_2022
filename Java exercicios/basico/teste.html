@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <script>
+        
+        var a = 10
+        var b = 20
+        var c = null //variável auxiliar utilizada na logica
+
+        document.write("A: " + a + "<br />")
+        document.write("B: " + b + "<br />")
+        document.write("C: " + c + "<br />")
+
+        document.write("<hr />")
+
+        //lógica de inversao dos valores das variaveis A e B
+
+        c = a //utilizada a variável C para armazenar temporariamente o valor da variável A
+        a = b //sobrepõe o valor da variável A com o valor da variável B
+        b = c //sobrepóe o valor da variável B com o valor da variável C (C nesse momento contém o valor da variável A)
+        c = null //opcional: remove o valor contido na variável C
+        
+        //
+        document.write("A: " + a + "<br />")
+        document.write("B: " + b + "<br />")
+        document.write("C: " + c + "<br />")
+
+    </script>    
+</head>
+<body>
+</body>
+</html>

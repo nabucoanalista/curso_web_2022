@@ -1,0 +1,15 @@
+
+/*o H1, paragrafo, divi.. por padrao sao elementos do tipo block, caso quera colocar em linha deve especificar com o comando displey:  inline;*/
+
+.borda{
+	border: 1px solid red;
+	/*display: inline;*/
+}
+
+/*A o contrario dos citados a cima o span é do tipo line porem pode ser alterado com o comando display: bloc tem tbm o display: inline-block que quebra a linha automaticamente*/
+
+.line{
+	border: 1px solid red;
+	/*display: block;*/
+	display: inline-block;
+}

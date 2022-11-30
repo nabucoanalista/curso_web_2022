@@ -1,0 +1,18 @@
+#caixa {
+	width: 300px;
+	height: 300px;
+	background: #b9c941;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box; /*a fusao dos 2 codigos fazem com que a altura e largura n some com o padding*/
+	/*padding: 10px;
+	margin: 10px;
+	-moz-border-radius: 20px 90px;/*prefixus sao usados para versoes antigas de brawser*/
+	/*-webkit-border-radius: 20px 90px; sempre quando usa esse comando, lembrar de usar os prefixus*/
+	/*border-radius: 20px 90px; colocando 4 valores eu ajuto cada lado individualmente e colocando apenas 2 o ajuste é cruzado*/
+}
+
+/*.arredondamento {
+	border-radius: 150px;
+}*/
+

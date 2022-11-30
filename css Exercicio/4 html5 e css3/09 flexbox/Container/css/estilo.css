@@ -1,0 +1,33 @@
+#conteudo {
+    background: #dcdcdc;
+    height: 400px;
+    display: flex;
+
+    /*
+    row | row-reverse | column-reverse
+    */
+    flex-direction: row;
+
+    /*
+    nowrap <-- ele nao permite que os itns dentro do container quebrem a linha | wrap <-- deixa responsivo | wrap-reverse <-- deixa responsivo mas inverte a ordem
+    */
+    flex-wrap: nowrap ;
+
+    /*
+    flex-start | flex-end | center | space-between | spa <-- varias formas de alinhamentos
+    */
+    justify-content: center;
+
+    /*
+    stretch | center | flex-start | flex-end | baseline <-- mais formas de alinhamentos
+    */
+    align-items: center;    
+}
+
+.item {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background: white;
+    border: 1px solid gray;
+}

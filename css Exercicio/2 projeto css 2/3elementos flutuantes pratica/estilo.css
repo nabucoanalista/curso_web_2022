@@ -1,0 +1,28 @@
+body{
+	background: #f4f4f4;
+}
+
+
+#principal{
+	width: 920px;
+}
+
+.noticia{
+	background: #e5e5e5;
+	padding: 5px;
+	width: 200px;
+	margin: 7px;
+	float: left;
+}
+
+.clear{
+	clear: both;
+}
+
+.img-gal{
+	background: white;
+	width: 265px;
+	padding: 5px;
+	float: left;
+	margin: 15px;
+}

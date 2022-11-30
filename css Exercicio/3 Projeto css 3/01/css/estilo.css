@@ -1,0 +1,53 @@
+/*===============
+SELETOR UNIVERSAL
+===============*/
+
+*{
+	border: 1px solid red;
+}
+
+/*===============
+SELETOR DE TEXTO
+===============*/
+
+h1{
+	color: green;
+}
+
+
+/*===============
+SELETOR DE CLASSE
+===============*/
+
+.verde{
+	color: green;
+}
+
+p.verde{
+	color: green;
+}
+
+/*===============
+SELETOR DE CLASSE
+===============*/
+
+#cabecalho{
+	border: 1px solid blue;
+}
+
+/*===============
+SELETOR DE FILHO
+===============*/
+
+/*li>a{  esse codigo serve apenas para link que estao dentro do li, que sao filhos. os de fora n afeta
+	color: red;
+	text-decoration: none;
+}*/
+
+/*====================
+SELETOR DE DESCENDENTE
+====================*/
+
+p a{
+	color: green; /*ao contrario do seletor filho, esse abranje a todos descendentes.*/
+}

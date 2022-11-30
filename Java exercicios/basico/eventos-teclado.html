@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <script>
+      function acao1() {
+        alert("evento disparado")
+      }
+    </script>
+        
+</head>
+<body>
+  Alerta funciona assim que a tecla é aperada.</p>
+  <input onkeydown="acao1()" type="text" />
+  <p></p>
+  Alerta funciona depoi que a tecla é aperada.</p>
+  <input onkeyup="acao1()" type="text" />
+  <p></p>
+  Alerta funciona apenas para caraceres e assim que a tecla é aperada.</p>
+  <input onkeypress="acao1()" type="text" />
+  <p></p>
+
+  documentaçao em https://www.w3schools.com/jsref/event_onkeydown.asp
+</body>
+</htl>

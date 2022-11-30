@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <script>
+        function acao() {
+          alert("Clik unico")
+        }
+        
+        function acao2() {
+          alert("Clik duplo")
+        }
+
+        function acao3() {
+          alert("click segura, quando solta que dispara")
+        }
+
+        function acao4() {
+          alert("passar o mouse")
+        }
+
+        function acao5() {
+          alert("tirar o cursor do mouse")
+        }
+
+        function acao6() {
+          alert("deu 2 cliks")
+        }
+
+        function acao7() {
+          alert("tirar o cursor do mouse")
+        }
+      
+
+    </script>    
+</head>
+<body>
+    
+    <div onclick="alert('Teste')" style="background: rgb(170, 66, 66); height: 150px; width: 150px">
+    </div>
+
+    <div><br></div>
+
+    click unico
+    <div onclick="acao()" style="background: #ccc; height: 150px; width: 150px">
+    </div>
+
+    <div><br></div>
+    
+    click duplo
+    <div ondblclick="acao2()" style="background: rgb(58, 8, 8); height: 150px; width: 150px">
+    </div>
+
+    <div><br></div>
+    
+    click segura, quando solta que dispara
+    <div onmouseup="acao3()" style="background: rgb(91, 62, 14); height: 150px; width: 150px">
+    </div>
+
+    <div><br></div>
+    
+    passar o mouse
+    <div onmouseover="acao4()" style="background: rgb(190, 209, 105); height: 150px; width: 150px">
+    </div>
+
+    <div><br></div>
+    
+    tirar o cursor do mouse
+    <div onmouseout="acao5()" style="background: rgb(140, 209, 105); height: 150px; width: 150px">
+    </div>
+
+    <div><br></div>
+    
+    2 efeitos 1 clikando e outro passando o mouse
+    <div ondblclick="acao6()" onmouseout="acao7()" style="background: rgb(105, 209, 167); height: 150px; width: 150px">
+    </div>
+
+    documentaçao em https://www.w3schools.com/jsref/obj_mouseevent.asp
+</body>
+</htl>

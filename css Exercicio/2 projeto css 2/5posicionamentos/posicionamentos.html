@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Posicionamentos (static, relative, absolute e fixed)</title>
+
+	<style type="text/css">
+
+		body{
+			background: #007fc7;
+		}
+
+		.fixed{
+			border: 1px solid red;
+			background: #f2f2f2;
+			margin: 0px;
+			position: fixed;
+			top: 0px;
+			right: 0px;
+		}
+
+		.absolute{
+			position: ;
+		}
+
+		.relative{
+			border: 1px solid red;
+			position: relative;
+			/* top, right, bottom e left
+			top: 20px;
+			left: 80px;*/
+		}
+		
+		#conteiner{
+			background: #fff;
+			width: 800px;
+			margin: 10px auto; /* o auto ele centraliza na tela*/
+			padding: 10px;
+		}
+
+		h1{
+			position: static; /*Posicionamento statico é o padrao do sistema*/
+		}
+
+		p{
+			width: 300px;
+		}
+
+	</style>
+</head>
+<body>
+
+	<div id="conteiner">
+		<h1>Porque nós o usamos</h1>
+
+		<p>É um fato conhecido de todos que um leitor se distrairá com o conteúdo de texto legível de uma página quando estiver examinando sua diagramação. A vantagem de usar Lorem Ipsum é que ele tem uma distribuição normal de letras, ao contrário de "Conteúdo aqui, conteúdo aqui", fazendo com que ele tenha uma aparência similar a de um texto legível.</p>
+
+		<p class="relative">É um fato conhecido de todos que um leitor se distrairá com o conteúdo de texto legível de uma página quando estiver examinando sua diagramação. A vantagem de usar Lorem Ipsum é que ele tem uma distribuição normal de letras, ao contrário de "Conteúdo aqui, conteúdo aqui", fazendo com que ele tenha uma aparência similar a de um texto legível.</p>
+
+		<p class="absolute">É um fato conhecido de todos que um leitor se distrairá com o conteúdo de texto legível de uma página quando estiver examinando sua diagramação. A vantagem de usar Lorem Ipsum é que ele tem uma distribuição normal de letras, ao contrário de "Conteúdo aqui, conteúdo aqui", fazendo com que ele tenha uma aparência similar a de um texto legível.</p>
+
+		<p class="fixed">É um fato conhecido de todos que um leitor se distrairá com o conteúdo de texto legível de uma página quando estiver examinando sua diagramação. A vantagem de usar Lorem Ipsum é que ele tem uma distribuição normal de letras, ao contrário de "Conteúdo aqui, conteúdo aqui", fazendo com que ele tenha uma aparência similar a de um texto legível.</p>
+
+		<p>É um fato conhecido de todos que um leitor se distrairá com o conteúdo de texto legível de uma página quando estiver examinando sua diagramação. A vantagem de usar Lorem Ipsum é que ele tem uma distribuição normal de letras, ao contrário de "Conteúdo aqui, conteúdo aqui", fazendo com que ele tenha uma aparência similar a de um texto legível.</p>
+
+		<p>É um fato conhecido de todos que um leitor se distrairá com o conteúdo de texto legível de uma página quando estiver examinando sua diagramação. A vantagem de usar Lorem Ipsum é que ele tem uma distribuição normal de letras, ao contrário de "Conteúdo aqui, conteúdo aqui", fazendo com que ele tenha uma aparência similar a de um texto legível.</p>
+
+		<p>É um fato conhecido de todos que um leitor se distrairá com o conteúdo de texto legível de uma página quando estiver examinando sua diagramação. A vantagem de usar Lorem Ipsum é que ele tem uma distribuição normal de letras, ao contrário de "Conteúdo aqui, conteúdo aqui", fazendo com que ele tenha uma aparência similar a de um texto legível.</p>
+	</div>
+
+</body>
+</html>

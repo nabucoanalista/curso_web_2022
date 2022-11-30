@@ -1,0 +1,41 @@
+<!-- --> serve para criar comentarios, colocar o comentario entre os traços
+<br> = serve para quebrar linha
+<p> serve para paragrafos </p>
+<hr> cria linha na horizontal
+<b> serve para deixar texto em negrito </b>
+<strong> é a nova recomendaçao para deixar negrito</strong>
+<i> deixa italico</i>
+<em> novo codigo para italico </em>
+<u> underline </u>
+<strike>  marca o texto como errado </strike>
+<ul> cria uma lista nao ordenada dentro usa o <il></il> para colocar os itens </ul>
+<li> itens de uma lista com marcador</il>
+<ul type=""> define o estilo do marcador, colocar  estilo nas aspas. circle, square, disc</ul>
+<ol> cria lista ordenada</ol>
+<ol type=""> define o estilo do marcador 1 para numeros, A ou a para letras e I ou i para romanos </ol>
+<img src=""> insere imagem
+<width=""> define a largura da img
+<height=""> define a altura da img
+<a href=""></a> cria link. dentro da tag coloca o nome do link e das aspas o endereço
+<table></table> cria tabela ''para definir a largura da tabela usa o comando width="" ps: posso definir o tamanho com o sinal de % ex. 100% ai o tamanho fica em relaçao a pag''
+<border=""> define a largura da borda da tabela
+<tr></tr> cria uma linha na tabela
+<td></td> dados da tabela`
+<th></th> deixa uma linha destacada
+<colspan=""> une a quantidade de coluna especificada
+<rowspan=""> une a quantidade de coluna especificada
+<form></form> formularios a serem criados ficam dentro da tag
+
+tipos de input's
+
+<input type="text" name="Login"> insere campo de login ''o type pode mudar com a utilidade... ''
+password para senha
+button para botao
+<value=""> define o texto do botao e tbm ajuda a saber a opçao escolhida por o usuario na caixa de seleçao
+<radio> para caixa de seleçao ps em nome vc define o mesmo nome para todas caixas, ai vc vai ter a condiçao de clicar apenas em um.
+<checkbox> cria uma caixa de seleçao quadrada
+<select></select> cria menu de seleçao
+<option></option> insere opçoes no menu de seleçao
+<textarea></textarea> cria caixa de texto para varios caracteres
+
+<form action=""> envia o formulario para um site de armazenamento

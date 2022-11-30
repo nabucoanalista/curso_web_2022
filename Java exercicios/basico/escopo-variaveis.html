@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <script>
+        
+      //java tem 3 escopos: global, funcao e o bloco
+      //global = tudo no java script
+      //cnteudo dentro de um bloco {aqui dentro}
+      //bloco = comando tipo if, else, swit...
+
+      var serie = "Friends" 
+
+      //exemplo de scopo de bloco
+      if (true) {
+        var serie2 = "Game of Thrones"
+        document.write(serie)
+      }
+
+      document.write(serie2)
+
+      document.write("<br />")
+
+      function x() {
+        var serie3 = "The Walking Dead"
+        document.write(serie)
+        document.write(serie2)
+      }
+
+      x()
+      //ver aula 178
+      document.write("<br />")
+      document.write(serie3)
+
+    </script>    
+</head>
+<body>
+</body>
+</htl>

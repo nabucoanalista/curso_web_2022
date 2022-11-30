@@ -1,0 +1,8 @@
+em css vc aplica o codigo no heard 
+
+<color:> joga dentro do codigo style e coloca a cor
+.nome {color: nomr;} cria uma class
+<cass=""> aplica a class
+
+site com codigos css; https://www.w3schools.com/css/css_border.asp
+i
