@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <script>
+        
+      //netflix
+      var video = Array()
+
+      video[1] = Array()
+      video[1]['nome'] = 'CDZ'
+      video[1]['categoriaz'] = 'Anime'
+
+      function getVideo(video) {
+
+        try {
+          //lógica
+          //http
+          console.log(video[0]['nome'])
+        
+        } catch(erro) {
+          tratarErro(erro)
+          console.log('Agora sim podemos tratar esse erro')
+          throw new Error('Houve um erro mas nao se preocupe, estamos trabalhando nisso.')
+        
+        } finally {
+          console.log('Sempre passa por aqui (try / catch)')
+        }
+
+        console.log('A aplicaçao nao morreu')
+
+      }
+
+    </script>    
+</head>
+<body>
+  ver aula 217
+</body>
+</htl>
