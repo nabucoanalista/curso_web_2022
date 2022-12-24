@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <script>
+      
+      //essa executa uma vez e para.
+      //setTimeout(function() { document.write('Teste' + '<br />') }, 2000)
+
+      //essa gera um loop
+      //setInterval(function() { document.write('Teste' + '<br />') }, 2000)
+
+      //contador regressivo
+
+      /*var i = 100
+
+      setInterval(function() {
+        document.write(i) +
+        i-- 
+      }, 1000)*/
+      
+      /*var i = 5
+
+      //chega no zero e atualiza a pag
+
+      setInterval(function() {
+        document.write(i)
+        i-- 
+
+        if(i === 0) {
+          window.location.reload()
+        }
+      }, 1000)*/
+
+      var i = 5
+
+      var x = setInterval(function() {
+        document.write(i)
+        i-- 
+
+        if(i === 0) {
+          clearInterval(x)
+        }
+      }, 1000)
+
+    </script>    
+</head>
+<body>
+  
+  <br />
+  ver aula 222
+</body>
+</htl>
