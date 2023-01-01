@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+
+        <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+        <script type="text/babel">
+            //SEM ATRIBUIR VALOR NA CONSTANT DA ERRO
+            /*const SERIE
+
+            console.log(SERIE)*/
+
+            //POREM COM O VALOR ATRIBUIDO NA CONSTANT FUNFA
+            //const SERIE = 'Friends'
+
+            //console.log(SERIE)
+
+            //POREM SE EU CHAMAR UM VALOR DIFERENTE N VIRA
+            /*const SERIE = 'Friends'
+
+            SERIE = 'The Walking Dead'
+
+            console.log(SERIE)*/
+
+            //POREM SE EU CHAMAR UMA FUNCION AI BLZ
+            
+            const SERIE = 'Friends'
+
+            function x() {
+                 const SERIE = 'The Walking Dead'
+                 console.log('dentro da funcao ' + SERIE)
+            }
+
+            x()
+
+            console.log('fora da funcao ' + SERIE)
+
+        </script>
+    </head>
+    <body>
+        <div id="output"></div>
+        aula 245
+    </body>
+</html>

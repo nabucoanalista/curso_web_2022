@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+
+        <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+        <script type="text/babel">
+            
+            //templete string serve para abrir uma janela para o inerpretador java interpretar a codificaçao inserida entre as chaves
+            let nome = 'Jorge'
+            //modo normal
+            //console.log('Oi ' + nome + ', tudo bem?')
+
+            //template usa a crase ao inves das aspas
+            //console.log(`Oi ${nome}, tudo bem?`)
+
+            //posso quebrar linhas tbm
+            /*
+            console.log(`
+            Oi ${nome}, 
+            tudo bem?
+            `)*/
+
+            //console.log(`7 + 7 = ${7+7}`)
+
+            //em caso de funçao
+
+            function calcular(x, y) {
+                return x * y
+            }
+
+            console.log(`A multiplicçao de 8 * 8 é: ${calcular(8,8)}`)
+
+
+        </script>
+    </head>
+    <body>
+        aula 246
+    </body>
+</html>
